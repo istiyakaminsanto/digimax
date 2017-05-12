@@ -164,7 +164,7 @@ height:100%;
 }
 /*------------about us styles---------------*/
 .section-padding{
-	padding:115px 0;
+	padding:70px 0;
 }
 
 .aboutus-area img {
@@ -179,8 +179,29 @@ height:100%;
 }
 
 
+/* video section */
 
+.video-area{
+  background: #1a237e;
+  width: 100%
+}
 
+.video-title-area {
+    color: #8fb2cb;
+    margin: 86px 50px;
+}
+
+.video-description{
+  margin: 30px 0px;
+}
+
+.video-image{
+  margin: 40px 0px;
+}
+
+.col-md-8{
+  padding-right: 0px;
+}
 
 
 
