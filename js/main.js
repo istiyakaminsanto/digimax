@@ -1,18 +1,8 @@
 $(document).ready(function(){
-$('.').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:1
-        }
-    }
-})
+  $("#featured_carousel").owlCarousel({
+  	 items : 5,
+    pagination:false,
+    autoplay:true,
+      loop:true,
+  });
 });

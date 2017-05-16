@@ -164,7 +164,7 @@ height:100%;
 }
 /*------------about us styles---------------*/
 .section-padding{
-	padding:70px 0;
+	padding:115px 0;
 }
 
 .aboutus-area img {
@@ -178,102 +178,75 @@ height:100%;
     line-height: 26px;
 }
 
-
-/* video section */
-
-.video-area{
-  background: #1a237e;
-  width: 100%
+.video-area {
+    background: #1f2881 none repeat scroll 0 0;
 }
-
-.video-title-area {
+.video_area_text {
     color: #8fb2cb;
-    margin: 86px 50px;
+    padding: 160px 50px 0;
+}
+.video_area_text > h3 {
+    font-size: 30px;
+    padding-bottom: 60px;
+}
+.video_area_text > p {
+    font-size: 13px;
+    padding-bottom: 25px;
 }
 
-.video-description{
-  margin: 30px 0px;
+.col-md-8.no-right-margin {
+    padding-right: 0;
+}
+.single-item {
+    box-sizing: border-box;
+/*    float: left;
+    width: 20%;
+*/}
+.carousels {
+}
+.single-item > img {
+    padding: 5px;
+    width: 100%;
 }
 
-.video-image{
-  margin: 40px 0px;
+/*----------service area style-----------*/
+
+.service-area {
+  background: rgba(0, 0, 0, 0) url("../img/service_back.png");
+    background-repeat: no-repeat;
+    background-position: right -139px;
+  padding: 135px 0;
 }
-
-.video-area .col-md-8{
-  padding-right: 0px;
+.single-service {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 0 30px #eeeeee;
+    margin-bottom: 30px;
+    padding: 40px 30px;
 }
-
-.box{
-  width: 240px;
-  height: 240px;
-  background: red;
-}
-
-.video-slide {
-  border: 3px solid #fff;
-
-}
-
-.video-slide img{
-  width: 263px;
-
-}
-
-#multimedia{
-  margin-bottom: 100px;
-}
-.poem-area{
-  color: #67869b;
-  margin: 100px 0px;
-
-
-}
-
-.perpoem{
-  background: #FFF;
-  -moz-box-shadow: 0 0 5px 5px #888;
-  -webkit-box-shadow: 0 0 5px 5px#888;
-  box-shadow: 0 0 18px 2px #000;
-  padding: 5px;
-  margin: 10px;
-
-}
-
-.icon{
-  float: left;
-  padding: 15px;
-  margin-bottom: 20px;
-}
-
-
-#download-area{
+.call-to-action-area {
+  background: #2a3387 none repeat scroll 0 0;
+  padding: 100px 0;
+  text-align: center;
   color: #fff;
-  background-image: url(../img/download_background.jpg);
-  background-repeat: no-repeat;
-
-  height: 100%;
 }
 
-
-#download-area .downlaod-details p{
+.call-to-action > img {
+    padding: 50px 0;
+}
+.call-to-action-btn {
+    border: 1px solid #fff;
+    border-radius: 40px;
+    color: #fff;
+    display: inline-block;
     font-size: 20px;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 30px;
-    padding-top: 50px;
-    text-align: center;
-    width: 570px;
+    margin-top: 25px;
+    padding: 15px 30px;
+}
+.call-to-action-btn i {
+    margin-right: 20px;
 }
 
-.download-image{
-  text-align: center;
-}
 
-.downlaod{
-  text-align: center;
-  margin: 55px;
-}
 
 
 
