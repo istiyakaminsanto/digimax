@@ -246,8 +246,62 @@ height:100%;
     margin-right: 20px;
 }
 
+.feedback{
+  margin-top: 100px;
+}
+
+.message{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 580px;
+}
 
 
+.carousel-indicators {
+    top: 100%;
+}
+
+.carousel-indicators .active {
+    background-color: #000;
+    height: 12px;
+    margin: 0;
+    width: 12px;
+}
+
+.carousel-indicators li {
+  background-color: #cacaca;
+  border: 1px solid #cacaca;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  width: 10px;
+}
+
+.indicator{
+    bottom: 10px;
+    left: 50%;
+    list-style: outside none none;
+    margin-left: -30%;
+    padding-left: 0;
+    position: absolute;
+    text-align: center;
+    width: 60%;
+    z-index: 15;
+}
+
+.banni{
+  text-align: center;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.customer{
+  margin: 70px 0px 0px;
+  text-align: center;
+}
 
 
 
