@@ -303,9 +303,40 @@ height:100%;
   text-align: center;
 }
 
+#footter-area{
+  background-image: url("../img/footer_background.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  color: #8fb2cb;
+
+}
+
+.left-footer-area{
+  margin-top: 100px;
+}
+
+.footer-address{
+  margin: 20px 0;
+}
+
+.second-left-slogan{
+  margin-top: 45px;
+}
+
+.epic-slo{
+  font-size: 17px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
 
 
+.lf-area2 {
+    padding: 70px 0;
+}
 
+.col-md-6, .col-md-4{
+  padding-left: 0px;
+}
 
 
 
