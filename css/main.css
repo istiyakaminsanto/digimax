@@ -257,7 +257,7 @@ height:100%;
 }
 
 
-.carousel-indicators {
+.a .b .carousel-indicators {
     top: 100%;
 }
 
@@ -336,6 +336,16 @@ height:100%;
 
 .col-md-6, .col-md-4{
   padding-left: 0px;
+}
+
+.copyright{
+  background-image: url("../img/copyright.jpg");
+  background-size: cover;
+  float: right;
+  position: relative;
+  bottom: 12%;
+  padding: 12px;
+  text-transform: uppercase;
 }
 
 
